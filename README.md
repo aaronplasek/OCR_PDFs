@@ -15,5 +15,5 @@ This jupyter notebook script does the following:
 
 ## nota bene 
  - Script will process all PDFs in the same directory, but will *not* recursively process PDFs in subfolders. 
- - Script uses terminal commands via the jupyter magic (i.e., "!" command) alongside python 3 so <b>this code will not work outside of a jupyter notebook</b>. 
+ - Script uses shell commands (via the jupyter "!" command) alongside python 3 so <b>this code will not work outside of a jupyter notebook</b>. 
  - Script ignores PDFs named `[filename].processed.pdf`. If keep_processed_PDFs = False, it will overwrite all PDFs ending in `processed.pdf`. 
