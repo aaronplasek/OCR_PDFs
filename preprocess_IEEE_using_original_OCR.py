@@ -1,4 +1,11 @@
-
+# 
+# Description: Pulls all plain txt from PDFs placed in folders titled by year of publication, and renames plain txt file 
+#              as 'XXXX-[PDF name].txt' in the target_folder specified in the script. 
+# 
+# Instructions: Place this script in top-level folder that contains folders named XXXX, where XXXX = year of publication
+#
+# Note: Script is recursive in that it will pull ALL PDFs in all sub-folders for each year
+#
 
 # libraries
 import os, ocrmypdf, time, glob
