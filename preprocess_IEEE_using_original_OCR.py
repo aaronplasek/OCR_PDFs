@@ -1,6 +1,6 @@
 # 
 # Description: Pulls all plain txt from PDFs placed in folders titled by year of publication, and renames plain txt file 
-#              as 'XXXX-[PDF name].txt' in the target_folder specified in the script. 
+#              as 'XXXX-[PDF name].txt' in the target_folder specified in the script. This script will run fine in a terminal. 
 # 
 # Instructions: Place this script in top-level folder that contains folders named XXXX, where XXXX = year of publication
 #
